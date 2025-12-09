@@ -1,0 +1,8 @@
+{
+  "label": "ROS2 Humanoid Control",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "ROS2 framework for controlling humanoid robots"
+  }
+}

@@ -1,0 +1,178 @@
+# API Contract: Documentation Site Search and Content Access
+
+## Overview
+This document defines the API contracts for the physical AI humanoid textbook documentation site, focusing on search functionality and content access endpoints that may be used by the frontend or external integrations.
+
+## Search API
+
+### Search Content
+- **Endpoint**: `GET /api/search`
+- **Description**: Search across all documentation content
+- **Parameters**:
+  - `q` (string, required): Search query
+  - `limit` (number, optional): Maximum number of results (default: 10, max: 50)
+  - `module` (string, optional): Filter by specific module (e.g., "ai-systems-intro", "ros2-humanoid-control")
+  - `type` (string, optional): Filter by content type ("conceptual", "reference", "tutorial", "example")
+
+#### Request Example
+```
+GET /api/search?q=neural+networks&limit=20&module=ai-systems-intro
+```
+
+#### Response Schema
+```json
+{
+  "results": [
+    {
+      "id": "string",
+      "title": "string",
+      "contentPreview": "string",
+      "url": "string",
+      "module": "string",
+      "contentType": "string",
+      "relevanceScore": "number"
+    }
+  ],
+  "totalResults": "number",
+  "took": "number" // Time in milliseconds
+}
+```
+
+#### Error Responses
+- `400 Bad Request`: Invalid parameters
+- `500 Internal Server Error`: Search service unavailable
+
+## Content API
+
+### Get Document
+- **Endpoint**: `GET /api/content/{documentId}`
+- **Description**: Retrieve specific document content and metadata
+- **Path Parameters**:
+  - `documentId` (string, required): Unique identifier for the document
+
+#### Request Example
+```
+GET /api/content/ai-systems-intro-fundamentals
+```
+
+#### Response Schema
+```json
+{
+  "id": "string",
+  "title": "string",
+  "content": "string", // Markdown content
+  "module": "string",
+  "contentType": "string",
+  "tags": ["string"],
+  "relatedDocuments": [
+    {
+      "id": "string",
+      "title": "string",
+      "url": "string"
+    }
+  ],
+  "lastUpdated": "string" // ISO 8601 format
+}
+```
+
+#### Error Responses
+- `404 Not Found`: Document does not exist
+- `500 Internal Server Error`: Content service unavailable
+
+### Get Module List
+- **Endpoint**: `GET /api/modules`
+- **Description**: Retrieve list of all available modules
+
+#### Response Schema
+```json
+{
+  "modules": [
+    {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "order": "number",
+      "documentCount": "number",
+      "status": "string"
+    }
+  ]
+}
+```
+
+### Get Module Documents
+- **Endpoint**: `GET /api/modules/{moduleId}/documents`
+- **Description**: Retrieve list of documents within a specific module
+- **Path Parameters**:
+  - `moduleId` (string, required): Unique identifier for the module
+
+#### Response Schema
+```json
+{
+  "moduleId": "string",
+  "moduleName": "string",
+  "documents": [
+    {
+      "id": "string",
+      "title": "string",
+      "path": "string",
+      "contentType": "string",
+      "tags": ["string"],
+      "order": "number"
+    }
+  ]
+}
+```
+
+## Analytics API
+
+### Track Content View
+- **Endpoint**: `POST /api/analytics/content-view`
+- **Description**: Track when a user views specific content
+- **Request Body**:
+  ```json
+  {
+    "documentId": "string",
+    "userId": "string", // Optional, can be anonymous ID
+    "sessionId": "string",
+    "timestamp": "string" // ISO 8601 format
+  }
+  ```
+
+#### Response Schema
+```json
+{
+  "success": "boolean",
+  "trackingId": "string"
+}
+```
+
+## Versioning Strategy
+
+- **Base URL**: All API endpoints are versioned under `/api/v1/`
+- **Backward Compatibility**: Breaking changes will result in a new version (v2, v3, etc.)
+- **Deprecation Policy**: Deprecated endpoints will continue to function for 6 months after announcement
+
+## Authentication
+
+- **Public Content**: No authentication required for content access
+- **Analytics**: Anonymous session tracking via client-side generated IDs
+- **Future Extensions**: API keys may be required for high-volume access
+
+## Rate Limiting
+
+- **Search API**: 100 requests per minute per IP
+- **Content API**: 200 requests per minute per IP
+- **Analytics API**: 500 requests per minute per IP
+
+## Error Handling
+
+All error responses follow this schema:
+```json
+{
+  "error": {
+    "code": "string",
+    "message": "string",
+    "details": "object" // Optional additional error details
+  }
+}
+```
