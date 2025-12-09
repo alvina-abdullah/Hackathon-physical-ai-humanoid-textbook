@@ -5,49 +5,69 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'AI Systems Introduction',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn fundamental AI concepts and techniques specifically tailored for humanoid robotics applications.
+        Understand machine learning, neural networks, and perception systems that power intelligent robots.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'ROS2 Humanoid Control',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Master ROS2-based control systems for humanoid robots. Learn joint control, trajectory planning,
+        sensor integration, and real-time control techniques essential for robot operation.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Digital Twin Simulation',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore digital twin technologies and simulation environments for safe development and testing.
+        Bridge the gap between simulation and reality with advanced validation techniques.
+      </>
+    ),
+  },
+  {
+    title: 'AI Robot Brain',
+    description: (
+      <>
+        Understand cognitive architectures and decision-making systems that form the "brain" of AI robots.
+        Learn about planning, learning, reasoning, and memory systems for autonomous behavior.
+      </>
+    ),
+  },
+  {
+    title: 'Safe Development',
+    description: (
+      <>
+        Follow best practices for safe humanoid robot development. Learn about safety protocols,
+        emergency procedures, and risk management in robotics applications.
+      </>
+    ),
+  },
+  {
+    title: 'Real-World Applications',
+    description: (
+      <>
+        Discover practical applications of humanoid robots in healthcare, manufacturing, education,
+        and service industries. Learn how to implement solutions for real-world problems.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
