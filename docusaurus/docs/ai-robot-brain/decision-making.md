@@ -551,13 +551,13 @@ public:
         std::vector<ObjectiveValue> candidates;
 
         // Action 0: Fast walking (high speed, medium stability, high energy)
-        candidates.push_back({{0.8, 0.6, -0.7}, 0});  // [speed, stability, energy_effort (negative)]
+        candidates.push_back({{ 0.8, 0.6, -0.7 }, 0});  // [speed, stability, energy_effort (negative)]
 
         // Action 1: Stable walking (low speed, high stability, medium energy)
-        candidates.push_back({{0.3, 0.9, -0.5}, 1});
+        candidates.push_back({{ 0.3, 0.9, -0.5 }, 1 });
 
         // Action 2: Balanced walking (medium speed, medium stability, medium energy)
-        candidates.push_back({{0.6, 0.7, -0.6}, 2});
+        candidates.push_back({{ 0.6, 0.7, -0.6 }, 2});
 
         // Define weights based on current situation
         std::vector<double> weights;
