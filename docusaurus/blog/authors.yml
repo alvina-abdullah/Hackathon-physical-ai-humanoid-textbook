@@ -9,6 +9,16 @@ yangshun:
     linkedin: yangshun
     github: yangshun
     newsletter: https://www.greatfrontend.com
+humanoid-team:
+  name: Humanoid AI Team
+  title: Physical AI & Humanoid Robotics
+  url: https://github.com/your-org
+  image_url: https://avatars.githubusercontent.com/u/9919?s=200&v=4
+ai-researcher:
+  name: AI Researcher
+  title: AI & Robotics Researcher
+  url: https://github.com/yourusername
+  image_url: https://github.com/yourusername.png
 
 slorber:
   name: Sébastien Lorber
