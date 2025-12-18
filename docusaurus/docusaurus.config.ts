@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io/physical-ai-humanoid-textbook',
+  url: 'https://alvina-abdullah.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-humanoid-textbook/',
+  baseUrl: 'https://Hackathon-physical-ai-humanoid-textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-humanoid-textbook', // Usually your repo name.
+  organizationName: 'alvina-abdullah', // Usually your GitHub org/user name.
+  projectName: 'Hackathon-physical-ai-humanoid-textbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/physical-ai-humanoid-textbook',
+            'https://github.com/alvina-abdullah/Hackathon-physical-ai-humanoid-textbook',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/physical-ai-humanoid-textbook',
+            'https://github.com/alvina-abdullah/Hackathon-physical-ai-humanoid-textbook',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -68,45 +68,12 @@ const config: Config = {
     ],
   ],
 
-  themes: [
-    // ... your other themes
-    [
-      '@docusaurus/theme-search-algolia',
-      {
-        // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
 
-        // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
-
-        indexName: 'physical-ai-humanoid-textbook',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/docs/',
-        },
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-
-        // Optional: whether the insights feature is enabled
-        insights: false,
-      },
-    ],
-  ],
 
   themeConfig: {
+    
     // Replace with your project's social card
+
     image: 'img/docusaurus-social-card.jpg',
 
     // SEO and social metadata
@@ -133,7 +100,7 @@ const config: Config = {
       },
       {
         name: 'og:url',
-        content: 'https://your-username.github.io/physical-ai-humanoid-textbook'
+        content: 'https://github.com/alvina-abdullah/Hackathon-physical-ai-humanoid-textbook'
       },
       {
         name: 'og:image',
