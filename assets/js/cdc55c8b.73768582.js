@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkclassic=globalThis.webpackChunkclassic||[]).push([[6492],{9062:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/https://Hackathon-physical-ai-humanoid-textbook/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

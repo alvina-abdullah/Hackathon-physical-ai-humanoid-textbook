@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Physical AI Humanoid Textbook Blog</title>
+        <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog</link>
+        <description>Physical AI Humanoid Textbook Blog</description>
+        <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Recent Breakthroughs in Humanoid AI Systems]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The field of humanoid robotics has experienced remarkable advances in recent years, particularly in the integration of artificial intelligence systems that enable more natural and capable robot behaviors.]]></description>
+            <content:encoded><![CDATA[<p>The field of humanoid robotics has experienced remarkable advances in recent years, particularly in the integration of artificial intelligence systems that enable more natural and capable robot behaviors.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="deep-learning-integration">Deep Learning Integration<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough#deep-learning-integration" class="hash-link" aria-label="Direct link to Deep Learning Integration" title="Direct link to Deep Learning Integration" translate="no">​</a></h2>
+<p>Modern humanoid robots now leverage deep learning techniques for:</p>
+<ul>
+<li class=""><strong>Enhanced Perception</strong>: Computer vision systems that can recognize and interact with complex environments</li>
+<li class=""><strong>Natural Language Processing</strong>: Improved human-robot interaction through conversational AI</li>
+<li class=""><strong>Adaptive Control</strong>: Learning-based control systems that adapt to different terrains and tasks</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cognitive-architecture-advances">Cognitive Architecture Advances<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough#cognitive-architecture-advances" class="hash-link" aria-label="Direct link to Cognitive Architecture Advances" title="Direct link to Cognitive Architecture Advances" translate="no">​</a></h2>
+<p>New cognitive architectures are enabling humanoid robots to:</p>
+<ul>
+<li class="">Plan complex multi-step tasks</li>
+<li class="">Learn from demonstration and interaction</li>
+<li class="">Adapt to novel situations without explicit programming</li>
+<li class="">Maintain coherent behavior over extended periods</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="simulation-to-reality-transfer">Simulation-to-Reality Transfer<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough#simulation-to-reality-transfer" class="hash-link" aria-label="Direct link to Simulation-to-Reality Transfer" title="Direct link to Simulation-to-Reality Transfer" translate="no">​</a></h2>
+<p>One of the most significant breakthroughs has been in bridging the "reality gap" between simulation and real-world deployment. Techniques like:</p>
+<ul>
+<li class="">Domain randomization</li>
+<li class="">Sim-to-real transfer learning</li>
+<li class="">Reality capture and modeling</li>
+</ul>
+<p>have made it possible to train complex behaviors in simulation and successfully deploy them on physical robots.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="applications-in-healthcare-and-service">Applications in Healthcare and Service<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough#applications-in-healthcare-and-service" class="hash-link" aria-label="Direct link to Applications in Healthcare and Service" title="Direct link to Applications in Healthcare and Service" translate="no">​</a></h2>
+<p>These advances have enabled practical applications in:</p>
+<ul>
+<li class="">Elderly care and assistance</li>
+<li class="">Physical therapy and rehabilitation</li>
+<li class="">Customer service and hospitality</li>
+<li class="">Educational support and companionship</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="looking-forward">Looking Forward<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/ai-breakthrough#looking-forward" class="hash-link" aria-label="Direct link to Looking Forward" title="Direct link to Looking Forward" translate="no">​</a></h2>
+<p>As AI systems become more sophisticated and integrated with humanoid platforms, we can expect to see:</p>
+<ul>
+<li class="">More natural human-robot interaction</li>
+<li class="">Improved safety and reliability</li>
+<li class="">Broader adoption across industries</li>
+<li class="">New applications we haven't yet imagined</li>
+</ul>
+<p>The Physical AI Humanoid Textbook project aims to document these advances and provide practical guidance for implementing these cutting-edge techniques in your own robotic systems.</p>]]></content:encoded>
+            <category>ai</category>
+            <category>breakthrough</category>
+            <category>humanoid</category>
+            <category>research</category>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to Physical AI Humanoid Development]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/intro</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/intro</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the Physical AI Humanoid Textbook project! This comprehensive guide is designed to help you understand and develop AI-powered humanoid robots using state-of-the-art techniques and best practices.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the Physical AI Humanoid Textbook project! This comprehensive guide is designed to help you understand and develop AI-powered humanoid robots using state-of-the-art techniques and best practices.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-youll-learn">What You'll Learn<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/intro#what-youll-learn" class="hash-link" aria-label="Direct link to What You'll Learn" title="Direct link to What You'll Learn" translate="no">​</a></h2>
+<p>In this textbook, we cover four essential modules that form the foundation of humanoid robotics:</p>
+<ol>
+<li class=""><strong>AI Systems Introduction</strong>: Fundamental AI concepts tailored for humanoid applications</li>
+<li class=""><strong>ROS2 Humanoid Control</strong>: Advanced control systems using the Robot Operating System</li>
+<li class=""><strong>Digital Twin Simulation</strong>: Safe development through simulation and digital twins</li>
+<li class=""><strong>AI Robot Brain</strong>: Cognitive architectures and decision-making systems</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-started">Getting Started<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/intro#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started" translate="no">​</a></h2>
+<p>To begin your journey in humanoid robotics development:</p>
+<ol>
+<li class="">Set up your development environment with ROS2</li>
+<li class="">Understand the core concepts in AI systems</li>
+<li class="">Practice with simulation environments before moving to physical robots</li>
+<li class="">Gradually build complexity in your robotic applications</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-future-of-humanoid-robotics">The Future of Humanoid Robotics<a href="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/intro#the-future-of-humanoid-robotics" class="hash-link" aria-label="Direct link to The Future of Humanoid Robotics" title="Direct link to The Future of Humanoid Robotics" translate="no">​</a></h2>
+<p>Humanoid robots represent a fascinating intersection of artificial intelligence, mechanical engineering, and cognitive science. As these systems become more sophisticated, they will play increasingly important roles in healthcare, education, manufacturing, and daily life assistance.</p>
+<p>Stay tuned for more articles exploring specific techniques, implementation details, and real-world applications of humanoid robotics!</p>]]></content:encoded>
+            <category>ai</category>
+            <category>robotics</category>
+            <category>humanoid</category>
+            <category>introduction</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/welcome</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
+<p>Here are a few tips you might find useful.</p>
+<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
+<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
+<p>The blog post date can be extracted from filenames, such as:</p>
+<ul>
+<li class=""><code>2019-05-30-welcome.md</code></li>
+<li class=""><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>A blog post folder can be convenient to co-locate blog post images:</p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p>The blog supports tags as well!</p>
+<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <category>Facebook</category>
+            <category>Hello</category>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[MDX Blog Post]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/mdx-blog-post</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/mdx-blog-post</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
+            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+<!-- -->
+<p>For example, use JSX to create an interactive button:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
+<button>Click me!</button>]]></content:encoded>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Long Blog Post]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/long-blog-post</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/long-blog-post</guid>
+            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is the summary of a very long blog post,]]></description>
+            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
+<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>Hello</category>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[First Blog Post]]></title>
+            <link>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/first-blog-post</link>
+            <guid>https://Hackathon-physical-ai-humanoid-textbook/https://Hackathon-physical-ai-humanoid-textbook/blog/first-blog-post</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
+<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>Hola</category>
+            <category>Docusaurus</category>
+        </item>
+    </channel>
+</rss>
